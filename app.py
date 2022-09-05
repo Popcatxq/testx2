@@ -31,7 +31,7 @@ from linebot.models import (
     ImageMessage, VideoMessage, AudioMessage, FileMessage,
     UnfollowEvent, FollowEvent, JoinEvent, LeaveEvent, BeaconEvent,
     FlexSendMessage, BubbleContainer, ImageComponent, BoxComponent,
-    TextComponent, SpacerComponent, IconComponent, ButtonComponent,
+    TextComponent, IconComponent, ButtonComponent,
 )
 
 app = Flask(__name__)
